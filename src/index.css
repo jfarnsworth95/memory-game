@@ -1,0 +1,63 @@
+.card {
+    width: 100px;
+    height: 130px;
+    margin: 10px;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border-radius: 25px;
+    border: 2px solid #000;
+}
+
+.center-fas-icon {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.card-row {
+    display: inline-block;
+    width: 100%;
+    height: 150px;
+}
+
+.board-wrapper {
+    display: inline-block;
+    width: 75%;
+    height: 80%;
+}
+
+.turn-status {
+
+}
+
+.score-board {
+    width: 100%;
+    display: inline-block;
+}
+
+.score-entry {
+
+}
+
+.maroon-iconcolor {color: #800000; font-size: 75px;}
+.brown-iconcolor {color: #9A6324; font-size: 75px;}
+.olive-iconcolor {color: #808000; font-size: 75px;}
+.teal-iconcolor {color: #469990; font-size: 75px;}
+.navy-iconcolor {color: #000075; font-size: 75px;}
+.black-iconcolor {color: #000000; font-size: 75px;}
+.red-iconcolor {color: #e6194B; font-size: 75px;}
+.orange-iconcolor {color: #f58231; font-size: 75px;}
+.yellow-iconcolor {color: #ffe119; font-size: 75px;}
+.lime-iconcolor {color: #bfef45; font-size: 75px;}
+.green-iconcolor {color: #3cb44b; font-size: 75px;}
+.cyan-iconcolor {color: #42d4f4; font-size: 75px;}
+.blue-iconcolor {color: #4363d8; font-size: 75px;}
+.purple-iconcolor {color: #911eb4; font-size: 75px;}
+.magenta-iconcolor {color: #f032e6; font-size: 75px;}
+
+.hidden-card-background {color: #000000; font-size: 120px;}
