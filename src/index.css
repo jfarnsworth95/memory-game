@@ -31,17 +31,9 @@
     height: 80%;
 }
 
-.turn-status {
-
-}
-
 .score-board {
     width: 100%;
     display: inline-block;
-}
-
-.score-entry {
-
 }
 
 .maroon-iconcolor {color: #800000; font-size: 75px;}
