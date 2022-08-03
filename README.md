@@ -1,3 +1,6 @@
+# Memory Game
+This is a basic memory game in which you and another player compete for points. If you successfully match 2 cards, take your turn again. If you fail, it's the other player's turn. After all the cards are turned over, whoever has the most points wins!
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
