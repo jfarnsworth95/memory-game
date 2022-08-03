@@ -4,7 +4,7 @@ import { EventEmitter } from 'events';
 
 import fontawesome from '@fortawesome/fontawesome'
 import { faDiamond, faCircle, faSpider, faCar, faBatteryFull, faCube, faCubes, faDumbbell, faFaceGrinBeamSweat, faKey, faFile } 
-from '@fortawesome/free-solid-svg-icons';
+  from '@fortawesome/free-solid-svg-icons';
 
 import Board from './board.js'
 import Card from './card.js'
@@ -154,8 +154,9 @@ import Card from './card.js'
       if (this.state.revealedCards.length >= 2) {
         if (this.compareCards()){
           // Success, add a point and the player keeps going
-          this.state.scores[this.state.playerTurn] ++
-          this.setState({revealedCards: []})
+          let scoreCopy = [...this.state.scores]
+          scoreCopy[this.state.playerTurn] ++
+          this.setState({scores: scoreCopy, revealedCards: []});
           this.isGameOver()
         } else {
           // Failure, next player goes, hide mismatched cards
